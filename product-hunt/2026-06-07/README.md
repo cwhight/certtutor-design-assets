@@ -1,16 +1,26 @@
 # CertTutor — Product Hunt launch demo screenshots
 
-Portrait-mobile screenshots of the core CertTutor flow, captured on **2026-05-31**
+Portrait-mobile screenshots of the core CertTutor flow, **re-captured on 2026-05-31**
 from production (https://certtutor.io) for the **Product Hunt launch on 2026-06-07**.
 
 These are intended for the **Product Hunt Arcade demo** (the interactive,
 click-through product walkthrough on the PH listing).
 
-- **Device / viewport:** iPhone 13, portrait, 390x844 (mobile, touch).
-- **Source:** live production, real demo account with a completed diagnostic and an
-  active SAA-C03 (AWS Solutions Architect Associate) cert set, so the dashboard and
-  results show real data.
-- **Cookie banner:** dismissed/pre-consented so it never appears in shots.
+- **Device / viewport:** iPhone 13, portrait, 390x844 (mobile, touch); deviceScaleFactor 2,
+  so viewport shots are 1170x1992 px. Consistent framing across all shots.
+- **Source:** live production, real demo account (`demo@certtutor.io`) on SAA-C03
+  (AWS Solutions Architect Associate).
+- **Realistic demo data:** the diagnostic scored **65%** with a **readiness score of 59**
+  (below the 72 "exam-ready" target, so the practice CTA makes sense). The gap map shows a
+  genuine mix — two strong domains (Secure Architectures 83%, Resilient Architectures 80%,
+  green) and two weak "Focus area" domains (High-Performing Architectures 40%,
+  Cost-Optimized Architectures 50%, red). No more all-red 0% gap map.
+- **AI explanation (08):** the "why you got this wrong" explanation now renders **fully
+  formatted** — bold section headings, bold inline emphasis, proper paragraphs — after the
+  markdown-rendering fix shipped to production. No literal `##` / `**` markers.
+- **Clean mobile frame:** cookie banner pre-consented so it never appears; the floating
+  "Give feedback" widget is hidden; tall pages (gap map, dashboard, AI explanation) are
+  captured without any clipped content.
 
 ## Flow / order
 
